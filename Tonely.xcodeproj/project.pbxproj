@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFC636C3197843B8003453C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC636C2197843B8003453C7 /* AppDelegate.swift */; };
+		AFC636C5197843B8003453C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC636C4197843B8003453C7 /* ViewController.swift */; };
+		AFC636C8197843B8003453C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC636C6197843B8003453C7 /* Main.storyboard */; };
+		AFC636CA197843B8003453C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC636C9197843B8003453C7 /* Images.xcassets */; };
+		AFC636D6197843B8003453C7 /* TonelyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC636D5197843B8003453C7 /* TonelyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFC636D0197843B8003453C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC636B5197843B8003453C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC636BC197843B8003453C7;
+			remoteInfo = Tonely;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFC636BD197843B8003453C7 /* Tonely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tonely.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC636C1197843B8003453C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC636C2197843B8003453C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFC636C4197843B8003453C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFC636C7197843B8003453C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFC636C9197843B8003453C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AFC636CF197843B8003453C7 /* TonelyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TonelyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC636D4197843B8003453C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC636D5197843B8003453C7 /* TonelyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TonelyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFC636BA197843B8003453C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC636CC197843B8003453C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFC636B4197843B8003453C7 = {
+			isa = PBXGroup;
+			children = (
+				AFC636BF197843B8003453C7 /* Tonely */,
+				AFC636D2197843B8003453C7 /* TonelyTests */,
+				AFC636BE197843B8003453C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFC636BE197843B8003453C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFC636BD197843B8003453C7 /* Tonely.app */,
+				AFC636CF197843B8003453C7 /* TonelyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFC636BF197843B8003453C7 /* Tonely */ = {
+			isa = PBXGroup;
+			children = (
+				AFC636C2197843B8003453C7 /* AppDelegate.swift */,
+				AFC636C4197843B8003453C7 /* ViewController.swift */,
+				AFC636C6197843B8003453C7 /* Main.storyboard */,
+				AFC636C9197843B8003453C7 /* Images.xcassets */,
+				AFC636C0197843B8003453C7 /* Supporting Files */,
+			);
+			path = Tonely;
+			sourceTree = "<group>";
+		};
+		AFC636C0197843B8003453C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFC636C1197843B8003453C7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFC636D2197843B8003453C7 /* TonelyTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFC636D5197843B8003453C7 /* TonelyTests.swift */,
+				AFC636D3197843B8003453C7 /* Supporting Files */,
+			);
+			path = TonelyTests;
+			sourceTree = "<group>";
+		};
+		AFC636D3197843B8003453C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFC636D4197843B8003453C7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFC636BC197843B8003453C7 /* Tonely */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC636D9197843B8003453C7 /* Build configuration list for PBXNativeTarget "Tonely" */;
+			buildPhases = (
+				AFC636B9197843B8003453C7 /* Sources */,
+				AFC636BA197843B8003453C7 /* Frameworks */,
+				AFC636BB197843B8003453C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tonely;
+			productName = Tonely;
+			productReference = AFC636BD197843B8003453C7 /* Tonely.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFC636CE197843B8003453C7 /* TonelyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC636DC197843B8003453C7 /* Build configuration list for PBXNativeTarget "TonelyTests" */;
+			buildPhases = (
+				AFC636CB197843B8003453C7 /* Sources */,
+				AFC636CC197843B8003453C7 /* Frameworks */,
+				AFC636CD197843B8003453C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC636D1197843B8003453C7 /* PBXTargetDependency */,
+			);
+			name = TonelyTests;
+			productName = TonelyTests;
+			productReference = AFC636CF197843B8003453C7 /* TonelyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFC636B5197843B8003453C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Kevin Scott";
+				TargetAttributes = {
+					AFC636BC197843B8003453C7 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					AFC636CE197843B8003453C7 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = AFC636BC197843B8003453C7;
+					};
+				};
+			};
+			buildConfigurationList = AFC636B8197843B8003453C7 /* Build configuration list for PBXProject "Tonely" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFC636B4197843B8003453C7;
+			productRefGroup = AFC636BE197843B8003453C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFC636BC197843B8003453C7 /* Tonely */,
+				AFC636CE197843B8003453C7 /* TonelyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFC636BB197843B8003453C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC636C8197843B8003453C7 /* Main.storyboard in Resources */,
+				AFC636CA197843B8003453C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC636CD197843B8003453C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFC636B9197843B8003453C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC636C5197843B8003453C7 /* ViewController.swift in Sources */,
+				AFC636C3197843B8003453C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC636CB197843B8003453C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC636D6197843B8003453C7 /* TonelyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFC636D1197843B8003453C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC636BC197843B8003453C7 /* Tonely */;
+			targetProxy = AFC636D0197843B8003453C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFC636C6197843B8003453C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC636C7197843B8003453C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFC636D7197843B8003453C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFC636D8197843B8003453C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFC636DA197843B8003453C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Tonely/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFC636DB197843B8003453C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Tonely/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AFC636DD197843B8003453C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tonely.app/Tonely";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TonelyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		AFC636DE197843B8003453C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tonely.app/Tonely";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TonelyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFC636B8197843B8003453C7 /* Build configuration list for PBXProject "Tonely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC636D7197843B8003453C7 /* Debug */,
+				AFC636D8197843B8003453C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC636D9197843B8003453C7 /* Build configuration list for PBXNativeTarget "Tonely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC636DA197843B8003453C7 /* Debug */,
+				AFC636DB197843B8003453C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFC636DC197843B8003453C7 /* Build configuration list for PBXNativeTarget "TonelyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC636DD197843B8003453C7 /* Debug */,
+				AFC636DE197843B8003453C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFC636B5197843B8003453C7 /* Project object */;
+}
